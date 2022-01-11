@@ -1,0 +1,109 @@
+*
+{
+    margin: 0%;
+    padding: 0%;
+}
+
+header
+{
+    background-color: #3B5998;
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 13px;
+}
+
+.tm-logo
+{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-weight: bolder;
+    font-size: 38px;
+}
+
+.tm-two li
+{
+    display: inline-block;
+    text-decoration: none;
+}
+
+section
+{
+    background: linear-gradient(white,#D3D8E8);
+    width: 100%;
+    height: 550px;
+}
+
+.tm-img
+{
+    margin-left: 150px;
+    margin-top: 50px;
+    display: inline-block;
+
+}
+
+.tm-img p
+{
+    font-family: Arial, Helvetica, sans-serif;
+    color:#0e385f;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px;
+
+
+}
+
+form
+{
+    float: right ;
+    margin-right: 150px;
+    margin-top: 45px;
+}
+
+h2
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 36px;
+    color:#333;
+
+}
+
+h3
+{
+   color: #1d2129;
+   font-size: 19px;
+   font-weight: normal;
+   padding: 10px;
+
+}
+
+input
+{
+    margin: 10px;
+    padding: 5px;
+
+}
+
+footer
+{
+    width: 100%;
+    height: 175px;
+}
+
+.ft-top
+{
+    margin-left: 12%;
+    padding: 50px;
+}
+
+.ft-top a
+{
+    font-size: 14px;
+    color:#3B5998;
+    text-decoration: none;
+}
+
+.ft-top a:hover
+{
+    text-decoration: underline; 
+}
+

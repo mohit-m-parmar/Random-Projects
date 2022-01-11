@@ -1,0 +1,321 @@
+*
+{
+    padding: 0%;
+    margin: 0%;
+    
+}
+
+body
+{
+    background-color: rgb(226, 224, 224);
+}
+
+#nv-fixed
+{
+    width: 100%;
+    height: 55px;
+    background-color: #047BD5;
+    position: fixed;
+}
+
+#nv-fixed img
+{
+    background: none;
+    margin-left: 90px;
+    margin-top: 13px;
+    float: left;
+}
+
+#nv-fixed input
+{
+    width: 500px;
+    height: 35px;
+    border-radius: 2px;
+    border: 0;
+    padding-left: 13px;
+    display: inline-block;
+    margin: 10px 10px;
+
+}
+
+#tm-buttons
+{
+    float: right;
+    margin-right:50px; 
+}
+
+#tm-buttons button
+{
+    padding: 6px;
+    border: none;
+    margin: 15px;
+    background-color: #047BD5;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#nv-moving
+{
+    width: 100%;
+    height: 35px;
+    background-color: white;
+    padding-top: 61px;
+    box-shadow: 1px 1px 1px rgb(197, 193, 193);
+
+    
+    
+}
+
+#nv-moving ul
+{
+    margin-left: 40px;
+    margin-top: 7px;
+}
+
+
+#nv-moving ul li
+{
+    display: inline-block;
+    margin-right: 80px;
+    margin: collapse;
+    background: none;
+    font-size: 13px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#nv-moving ul li a
+{
+    text-decoration: none;
+    color: rgba(7, 7, 7, 0.904);
+}
+
+#nv-moving ul li a:hover
+{
+    color: #047BD5;
+}
+
+#tm-buttons button a
+{
+ text-decoration: none;   
+}
+
+#tm-buttons button a:active
+{
+    color: white;
+
+}
+
+#tm-buttons button a:visited
+{
+    color: white;
+    text-decoration: none;
+}
+
+article
+{
+    background-color: pink;
+}
+
+#tm-img-disp
+{
+    width: 37%;
+    float: left;
+    height: 480px;
+    background-color: white;
+    margin: 25px;
+    border:rgb(185, 184, 184) solid 0.1px;
+
+}
+
+#tm-img-disp img
+{
+    width: 92%;
+    height: 380px;
+    padding: 10px;
+
+}
+
+#tm-img-disp button
+{
+    margin-left: 10px;
+    width: 46%;
+    height: 70px;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#add
+{
+    background-color: rgb(255, 208, 0);
+}
+
+#buy
+{
+    background-color: rgb(235, 102, 25);
+
+}
+
+#tm-info
+{
+    float: right;
+    width: 57%;
+    padding: 1%;
+    height: 600px;
+    border:rgb(189, 186, 186) solid 0.4px;
+    margin-top: 25px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#tm-info a
+{
+    text-decoration: none;
+    color: rgb(66, 66, 66);
+}
+#tm-info a:hover
+{
+    color: #047BD5;
+}
+
+
+
+#pricing
+{
+    display: inline;
+    padding: 20px;
+}
+
+#pricing strong
+{
+    color: rgb(5, 109, 5);
+}
+
+h1
+{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+
+h2{
+    display: inline;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(58, 58, 58);
+    padding: 10px;
+}
+
+h4
+{
+    display: inline;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 10px;
+    color: rgb(134, 134, 134);
+}
+
+h5
+{
+    color: red;
+    font-family: cursive;
+}
+
+#tm-info ul
+{
+    padding: 20px;
+}
+
+#tm-info ul li
+{
+    list-style: circle;
+    padding: 5px;
+}
+
+dl
+{
+    list-style: outside;
+}
+dl dt
+{
+    color: rgb(43, 42, 42);
+    font-weight: bold;
+    padding: 5px;
+}
+
+dl dd{
+    color: rgb(19, 19, 19);
+    padding: 10px;
+}
+
+footer
+{
+    background-color: white;
+    box-shadow: 4px 1px 1px  rgb(197, 193, 193);
+    margin-top: 19px;
+}
+
+table
+{
+    width: 80%;
+    margin: auto;
+    font-family:Arial, Helvetica, sans-serif;  
+    border-spacing: 10px;
+    padding: 15px;
+    border-bottom: grey solid 0.5px;
+
+}
+
+table a
+{
+    text-decoration: none;
+    color: gray;
+
+
+}
+
+table a:visited
+{
+    color: gray;
+}
+
+table a:hover
+{
+    color: #047BD5;
+}
+
+table th
+{
+    text-align: left;
+    font-size:12px;
+}
+
+table td
+{
+    border-bottom: grey solid 0.5px;
+    font-size:11px;
+}
+
+footer div
+{
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(31, 28, 28);
+    font-size: 14px;
+}
+
+footer div span
+{
+    float: right;
+}
+
+footer div span img
+{
+    height: 22px;
+    width: 22px;
+    cursor: pointer;
+}
